@@ -1,0 +1,48 @@
+body
+{
+	background:rgba(250,220,120,0.3);
+}
+.nav-link:hover
+{
+	margin:auto;
+	color:CYAN;
+	background:rgba(230,211,230,0.5);
+	background-size: 100%;
+	text-shadow: 1px 1px 5px BLACK;
+}
+.nav-link
+{
+	font-size:20px;
+}
+.logo
+{
+	color:YELLOW;
+}
+.dropdown-item{
+		color:WHITE;
+}
+.dropdown-item:hover
+{
+	background:yellow;
+	color:BLACK;
+}
+.dropdown-menu
+{
+	background-color: BLACK;
+
+}
+.img-fluid
+{
+	animation: anima 3s infinite;
+}
+@keyframes anima
+{
+	0% { margin-left: 25px; }
+		40% { margin-top: 0px; }
+			70% { margin-top: 15px; }
+				100% { margin-top: 0px; }
+}
+.name
+{
+	text-shadow: 1px 1px 5px CYAN;
+}
