@@ -37,10 +37,11 @@ body
 }
 @keyframes anima
 {
-	0% { margin-left: 25px; }
-		40% { margin-top: 0px; }
-			70% { margin-top: 15px; }
-				100% { margin-top: 0px; }
+	0% { margin-left: 15px; }
+		25% { margin-right: 15px; }
+			50% { margin-top: 15px; }
+				75% { margin-buttom: 15px; }
+					100% { margin-left: 15px; }
 }
 .name
 {
