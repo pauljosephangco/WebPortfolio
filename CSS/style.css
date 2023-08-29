@@ -43,7 +43,9 @@ body
 				75% { margin-buttom: 15px; }
 					100% { margin-left: 15px; }
 }
-.name
+.qoute
 {
 	text-shadow: 1px 1px 5px CYAN;
+	font-family:monospace;
+	font-size:2rem;
 }
