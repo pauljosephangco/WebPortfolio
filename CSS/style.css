@@ -48,3 +48,8 @@ body
 	text-shadow: 1px 1px 5px CYAN;
 	font-size:2rem;
 }
+.fb a
+{
+	text-decoration:none;
+	color:white;
+}
