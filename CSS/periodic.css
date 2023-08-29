@@ -1,0 +1,567 @@
+body
+{
+	background-image: url("../IMG/bg.gif");
+	background-size: 30%;
+	background-repeat: repeat;
+	background-position: center;
+}
+table 
+{
+	border-width: 0px;
+	width: 100%;
+	height:100%;
+	border-color: BLACK;
+	margin-top:1%;
+}
+h1{
+	text-align: center;
+	color:YELLOW;
+	font-size: 120px;
+	font-family: monospace;
+	text-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;
+	letter-spacing:10px;
+	animation: blinkingBackground 2s infinite;
+	margin-top: -1%;
+}
+.img
+{
+	position: absolute;
+	margin-left: 13%;
+	width:22%;
+	height:23%;
+	border-radius: 10px;
+}
+.img:hover
+{
+	position: absolute;
+	width:30%;
+	height:30%;
+	transition: 0.5s;
+}
+.h
+{
+	text-align: center;
+	color:YELLOW;
+	font-size:60px;
+	font-family: monospace;
+	text-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;
+	margin-top:-8%;
+	animation: blinkingBackground 2s infinite;
+	}
+	@keyframes blinkingBackground{
+		0%		{ text-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;}
+		25%		{ text-shadow: 0 0 5px RED, 0 0 20px RED, 0 0 20px RED;}
+		50%		{ text-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;}
+		75%		{ text-shadow: 0 0 5px RED, 0 0 20px RED, 0 0 20px RED;}
+		100%	{ text-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;}
+	}
+.button
+{
+	background:YELLOW;
+	position: absolute;
+	font-size:30px;
+	border-radius:10px;
+	border:transparent;
+	margin-left:5%;
+	margin-top:2%;
+	animation: blinkingBackground 2s infinite;
+}
+.button{
+        position: absolute;
+        display: inline-block;
+        letter-spacing: 4px;
+        overflow: hidden;
+        transition: 0.2s;
+        text-decoration: none;
+        padding-left: 20px;
+        color:#FFFF;
+        background: BLUE;
+        padding-left: 15px;
+        margin-left:5%;
+        padding-right: 15px;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 13px;
+        margin-top:3%;
+        border:transparent;
+        height:5%;
+        font-family:monospace;
+        position: absolute;
+    }
+  .button:hover{
+        border-radius: 13px;
+        box-shadow:0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;
+        text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;
+        font-size:27px;
+        background:RED;
+        transition:-0.5s;	
+        
+    }
+    .button a
+    {
+    	text-decoration: none;
+    }
+.button1{
+        position: absolute;
+        letter-spacing: 1px;
+        display: inline-block;
+        overflow: hidden;
+        padding-left: 20px;
+        color:#FFFF;
+        background:BLUE;
+        padding-left: 15px;
+        margin-left:80%;
+        padding-right: 15px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 13px;
+        margin-top:3%;
+        border:transparent;
+        width: 15%;
+        height:5%;
+        font-family:monospace;
+
+
+    }
+  .button1:hover{
+        border-radius: 13px;
+        box-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;
+        text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;
+        font-size:20px;
+        width: 17%;
+        background:RED;
+        transition:-0.5s;	
+        
+    }
+    .button1 a
+    {
+    	text-decoration: none;
+    }
+.COL
+{
+	border:transparent;
+}
+.WORD
+{
+	text-align:center;
+	font-family:monospace;
+	font-size:12px;
+	margin:0px;
+	color:CYAN;
+
+}
+.WORDS
+{
+	text-align:left;
+	font-family:monospace;
+	font-size:10px;
+	margin:0px;
+	text-shadow:1px 1px 1px black;
+
+}
+.WORD1
+{
+	text-align:center;
+	font-family:monospace;
+	font-size:12px;
+	margin:0px;
+}
+.WORD2
+{
+	text-align:left;
+	font-family:monospace;
+	font-size:10px;
+	margin:0px;
+	color:YELLOW;
+	text-shadow:1px 1px 1px black;
+}
+.WORD3
+{
+	text-align:center;
+	font-family:monospace;
+	font-size:10px;
+	margin:0px;
+}
+.WORD4
+{
+	text-align:center;
+	font-family:monospace;
+	font-size:12px;
+	margin:0px;
+	color:BLACK;
+}
+.th2a
+{
+	border-width: 0px;
+}
+.ORANGE
+{
+	background: ORANGE;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.ORANGES
+{
+	background: ORANGE;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.ORANGE:hover
+{
+	background:linear-gradient(to bottom, BLACK 0%,BLACK 15%,WHITE 30%,BLACK 50%,YELLOW 80%,BLACK 100%);
+	text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;
+	font-size: 27px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	position: absolute;
+	width:6%;
+	height:10%;
+	margin:0px;
+	margin-left:-0.3%;
+	margin-top:-0.3%;
+}
+.WHITE
+{
+	background: #FFFF;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.WHITES
+{
+	background: #FFFF;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.WHITE:hover
+{
+	background:linear-gradient(to bottom, BLACK 0%,BLACK 15%,WHITE 30%,BLACK 50%,YELLOW 80%,BLACK 100%);
+	text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;
+	font-size: 27px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	position: absolute;
+	width:6%;
+	height:10%;
+	margin:0px;
+	margin-left:-0.3%;
+	margin-top:-0.3%;
+}
+.GREEN
+{
+	background:GREEN;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.GREENS
+{
+	background:GREEN;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.GREEN:hover
+{
+	background:linear-gradient(to bottom, BLACK 0%,BLACK 15%,WHITE 30%,BLACK 50%,YELLOW 80%,BLACK 100%);
+	text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;
+	font-size: 27px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	position: absolute;
+	width:6%;
+	height:10%;
+	margin:0px;
+	margin-left:-0.3%;
+	margin-top:-0.3%;
+}
+.LGREEN{
+	background:#90EE90;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.LGREENS{
+	background:#90EE90;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.LGREEN:hover
+{
+	background:linear-gradient(to bottom, BLACK 0%,BLACK 15%,WHITE 30%,BLACK 50%,YELLOW 80%,BLACK 100%);
+	text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;
+	font-size: 27px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	position: absolute;
+	width:6%;
+	height:10%;
+	margin:0px;
+	margin-left:-0.3%;
+	margin-top:-0.3%;
+}
+.DPINK
+{
+	background: #AA336A;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:8%;
+	color:#FFFF;
+	margin:0px;
+	text-shadow:2px 2px 2px black;
+}
+.DPINKS
+{
+	background: #AA336A;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:8%;
+	color:#FFFF;
+	margin:0px;
+	text-shadow:2px 2px 2px black;
+}
+.DPINK:hover
+{
+	background:linear-gradient(to bottom, BLACK 0%,BLACK 30%,YELLOW 50%,BLACK 70%,BLACK 100%);
+	text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	text-shadow:2px 2px 2px BLACK;
+	width:5%;
+	height:8%;
+	margin:0px;
+}
+.PINK
+{
+	background:PINK;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.PINKS
+{
+	background:PINK;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.PINK:hover
+{
+	background:linear-gradient(to bottom, BLACK 0%,BLACK 15%,WHITE 30%,BLACK 50%,YELLOW 80%,BLACK 100%);
+	text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;
+	font-size: 27px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	position: absolute;
+	width:6%;
+	height:10%;
+	margin:0px;
+	margin-left:-0.3%;
+	margin-top:-0.3%;
+}
+.VIOLET{
+	background:VIOLET;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.VIOLETS{
+	background:VIOLET;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.VIOLET:hover
+{
+	background:linear-gradient(to bottom, BLACK 0%,BLACK 15%,WHITE 30%,BLACK 50%,YELLOW 80%,BLACK 100%);
+	text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;
+	font-size: 27px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	position: absolute;
+	width:6%;
+	height:10%;
+	margin:0px;
+	margin-left:-0.3%;
+	margin-top:-0.3%;
+}
+.AQUA{
+	background:AQUA;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.AQUAS{
+	background:AQUA;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.AQUA:hover
+{
+	background:linear-gradient(to bottom, BLACK 0%,BLACK 15%,WHITE 30%,BLACK 50%,YELLOW 80%,BLACK 100%);
+	text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;
+	font-size: 27px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	position: absolute;
+	width:6%;
+	height:10%;
+	margin:0px;
+	margin-left:-0.3%;
+	margin-top:-0.3%;
+}
+.LORANGE
+{
+	background: #FFD580;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.LORANGES
+{
+	background: #FFD580;
+	font-size: 20px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	width:5%;
+	height:6%;
+	margin:0px;
+}
+.LORANGE:hover
+{
+	background:linear-gradient(to bottom, BLACK 0%,BLACK 15%,WHITE 30%,BLACK 50%,YELLOW 80%,BLACK 100%);
+	text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;
+	font-size: 27px;
+	font-family: monospace;
+	text-align: center;
+	border-radius:10px;
+	position: absolute;
+	width:6%;
+	height:10%;
+	margin:0px;
+	margin-left:-0.3%;
+	margin-top:-0.3%;
+}
+.tb1
+{
+	margin-top: 3%;
+	border-width: 0px;
+	width: 89%;
+	height:100px;
+	border-color: BLACK;
+	margin-left: 5.5%;
+}
+blink {
+  animation:1s linear infinite condemned_blink_effect;
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+
+  }
+  100% {
+    visibility: visible;
+  }
+}
+.group
+{
+	text-align: center;
+	color:BLACK;
+	font-size:60px;
+	font-family: monospace;
+	text-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;
+	margin-top:-3%;
+	animation: blinkingBackgrounds 2s infinite;
+	}
+	@keyframes blinkingBackgrounds{
+		0%		{ text-shadow: 0 0 5px WHITE, 0 0 20px WHITE, 0 0 20px WHITE;margin-left:-1%;}
+		25%		{ text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;margin-left:1%;}
+		50%		{ text-shadow: 0 0 5px WHITE, 0 0 20px WHITE, 0 0 20px WHITE;margin-left:-1%;}
+		75%		{ text-shadow: 0 0 5px YELLOW, 0 0 20px YELLOW, 0 0 20px YELLOW;margin-left:1%;}
+		100%	{ text-shadow: 0 0 5px WHITE, 0 0 20px WHITE, 0 0 20px WHITE;margin-left:-1%;}
+	}

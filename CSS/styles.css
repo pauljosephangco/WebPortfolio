@@ -1,0 +1,92 @@
+body
+{
+	background: red;
+}
+th
+{
+	width:3rem;
+	height:2rem;
+	font-size: 1rem;
+	font-family: cursive;
+	text-shadow: 1px 2px black;	
+}
+table
+{
+	background: gray;
+	border-color:white;
+}
+
+.days
+{
+	background:orange;
+	color:red;
+}
+.month
+{
+	color:White;
+	font-family: monospace;
+	border:0rem;
+	text-align: left;
+	font-size: 3rem;
+}
+.jan
+{
+	background:black;
+	color:white;
+}
+
+.feb
+{
+	background: black;
+	color: white;
+}
+.mar
+{
+	background: black;
+	color:white;
+}
+.april
+{
+	background: black;
+	color:white;
+}
+.may
+{
+	background: black;
+	color:white;
+}
+.june
+{
+	background: black;
+	color:white;
+}
+.july
+{
+	background: black;
+	color:white;
+}
+.august
+{
+	background: black;
+	color:white;
+}
+.september
+{
+	background: black;
+	color:white;
+}
+.october
+{
+	background: black;
+	color:white;
+}
+.november
+{
+	background: black;
+	color:white;
+}
+.december
+{
+	background: black;
+	color:white;
+}
