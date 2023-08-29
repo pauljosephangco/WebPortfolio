@@ -31,18 +31,4 @@ body
 	background-color: BLACK;
 
 }
-.img-fluid
-{
-	animation: anima 3s infinite;
-}
-@keyframes anima
-{
-	0% { margin-left: 25px; }
-		40% { margin-top: 0px; }
-			70% { margin-top: 15px; }
-				100% { margin-top: 0px; }
-}
-.name
-{
-	text-shadow: 1px 1px 5px CYAN;
-}
+
