@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SURVEY FORM</title>
+	<style type="text/css">
+	body
+	{
+		background:rgba(200,200,200,0.5);
+	}
+	.box
+	{
+		width:400px;
+		height:450px;
+		background:rgba(200,0,0,0.2);
+		margin:auto;
+	}
+	.form
+	{
+		margin-left:20px;
+	}
+	</style>
+</head>
+<body>
+<div class="box">
+<h1 align="center">SURVEY FORM</h1>
+<p align="center">Please fill this survey form correctly.</p>
+<form class="form">
+	<label for="name">Name:</label>
+	<input type="name" id="name" required>
+	<br>
+	<label>Gender:</label>
+	<input type="radio" id="Gender" name="Gender" required>Male
+	<input type="radio" id="Gender" name="Gender" required>Female
+	<br>
+	<label for="OS">Operating System</label>
+	<select id="OS">
+  	<option value="appmac">Apple macOS</option>
+	<option value="microsoft">Microsoft Windows</option>
+	<option value="google">Google's Android OS</option>
+ 	<option value="linux">Linux Operating System</option>
+ 	<option value="apple">Apple iOS.</option>
+	</select>
+	<br>
+	<label for="toys">Toys:</label><br>
+	<input type="checkbox" id="toys">Digital Camera<br>
+	<input type="checkbox" id="toys">MP3 Player<br>
+	<input type="checkbox" id="toys">Wireless LAN<br>
+	<input type="checkbox" id="toys">PS-5<br>
+	<p>Mini Biography:</p>	
+	<textarea id="text" maxlength="200" placeholder="Maximum of 200 words" style="width:300px; height:50px;"></textarea>
+	<br><br>
+	<button type="submit">Submit</button>
+</div>
+</form>
+</body>
+</html>
